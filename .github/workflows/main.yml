@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main   # change if your default branch is different
-  workflow_dispatch:  # 👈 This is the trigger for manual runs
+  workflow_dispatch:  # 👈 This is to trigger for manual runs
 
 jobs:
   build-and-deploy:
